@@ -1,0 +1,61 @@
+@import "../../../../../shared/styles/styles.scss";
+.welcome-box{  
+    display:grid;
+    place-items: center;
+    background-color: $color-secondary;
+    height: 80vh;
+    width: 40vh;
+    padding: $common-space * 2;
+    @include border-radius($borderRadius);
+    align-items: center;
+    color: $white;
+    margin-left: $unitLength * 3;
+
+
+    &__logo{
+        @include displayFlex();
+        @include border-radius($unitLength * 4);
+
+        background-color: $white;
+        justify-content: center;
+        align-items: center;
+        border: 10px $color-tertiary solid;
+
+        @include desktop720p {
+            height: $unitLength * 3;
+            width: $unitLength * 3;
+            margin-top: $unitLength * 2;
+        }
+
+        @include desktop1080p {
+            height: $unitLength * 4;
+            width: $unitLength * 4;
+            margin-top: $unitLength * 3;
+        }
+
+        &__label{
+            @include displayFlex();
+            color: $color-tertiary;
+
+            @include desktop720p{
+                font-size: $largeFontSize * 0.75;
+            }
+            @include desktop1080p {
+                font-size: $largeFontSize;
+            }
+        }
+    }
+
+    &__primary-label {
+        text-align: center;
+
+        @include desktop720p{
+            font-size: $largeFontSize * 0.7;
+            margin: 60px 0;
+        }
+        @include desktop1080p {
+            font-size: $largeFontSize;
+            margin: 100px 0;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@import "../../shared/styles/styles.scss";
+
+.text-body {
+    margin: 20px 0px;
+    font-size: 18px;
+
+    @include desktop1080p{
+        font-size: 24px;
+    }
+}

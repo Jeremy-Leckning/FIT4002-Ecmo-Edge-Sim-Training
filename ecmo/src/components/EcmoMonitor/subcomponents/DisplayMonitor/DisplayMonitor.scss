@@ -1,0 +1,146 @@
+@import "../../../../shared/styles/styles.scss";
+
+.monitor-container {
+  max-width: 552px;
+  width: 552px;
+  max-height: 364px;
+  height: 364px;
+  display: flex;
+  flex-direction: row;
+}
+
+.monitor-container > div {
+  border: solid 2px #8c8c8c;
+  max-width: 552px;
+  width: 552px;
+  max-height: 360px;
+  height: 360px;
+  position: relative;
+  background:#ffffff;
+}
+
+.monitor-container > div > .vertical-separator {
+  border-right: solid 2px #8c8c8c;
+  max-width: 274px;
+  width: 274px;
+  max-height: 360px;
+  height: 360px;
+  position: absolute;
+}
+
+.monitor-container > div > .horizontal-separator {
+  position: absolute;
+  left: 0;
+  border-bottom: solid 2px #8c8c8c;
+  max-width: 550px;
+  width: 550px;
+  max-height: 180px;
+  height: 180px;
+}
+
+.monitor-container > div > .horizontal-separator2 {
+  position: absolute;
+  border-bottom: solid 2px #8c8c8c;
+  max-width: 276px;
+  width: 276px;
+  max-height: 270px;
+  height: 270px;
+}
+
+.monitor-container .top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 274px;
+  width: 274px;
+  max-height: 180px;
+  height: 180px;
+}
+
+.monitor-container .top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 274px;
+  width: 274px;
+  max-height: 180px;
+  height: 180px;
+}
+
+.monitor-container .bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 274px;
+  width: 274px;
+  max-height: 180px;
+  height: 180px;
+}
+
+.monitor-container .middle-left {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  max-width: 274px;
+  width: 274px;
+  max-height: 90px;
+  height: 90px;
+}
+
+.monitor-container .bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 274px;
+  width: 274px;
+  max-height: 90px;
+  height: 90px;
+}
+
+.monitor-container h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #8c8c8c;
+  border-radius: 20px;
+  width: 95px;
+  height: 38px;
+  background: #fff;
+  border: 1px solid #8c8c8c;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.monitor-container h5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #8c8c8c;
+  margin: 2px;
+}
+
+.monitor-container h3{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 48px;
+  font-weight: normal;
+  color: rgba(32, 71, 130, 1);
+  margin: 10px;
+}
+
+
+.monitor-container h2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 75px;
+  font-weight: bold;
+  color: rgba(32, 71, 130, 1);
+  margin: 10px;
+}

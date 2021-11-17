@@ -1,0 +1,45 @@
+$headerFontSize: 18px !default;
+$largeFontSize: 48px !default;
+$defaultFontSize: 24px !default;
+$smallFontSize: 16px !default;
+$smallerFontSize: 11px !default;
+$elementHeight: 48px !default;
+$smallElementHeight: 38px !default;
+$elementTitleHeight: 54px !default;
+$elementHeaderHeight: 44px !default;
+$borderRadius: 20px !default;
+$inputWidth: 425px !default;
+$unitLength: 44px !default;
+$baseSpacing: 20px !default;
+
+/** Header Font inlcludes H1, H2, H3 */
+$header-font-size: $headerFontSize !default;
+
+/** Default Font includes Body, P */
+$default-font-size: $defaultFontSize !default;
+
+/** Small Font */
+$small-font-size: $smallFontSize !default;
+
+/** Smaller Font */
+$smaller-font-size: $smallerFontSize !default;
+
+/** Height for Element Visuals */
+$element-height: $elementHeight !default;
+$element-title-height: $elementTitleHeight !default;
+$element-header-height: $elementHeaderHeight !default;
+
+/** Width for Input Visuals */
+$input-width: $inputWidth !default;
+
+$text-inputpadding-right: 6px;
+$text-inputpadding-left: 20px;
+$text-inputpadding-height: 48px;
+$text-inputpadding-border-radius: 24px;
+
+/** Spacing **/
+$common-space: 20px !default;
+
+/** Display Width **/
+$desktop720p: 1280px;
+$desktop1080p: 1920px;

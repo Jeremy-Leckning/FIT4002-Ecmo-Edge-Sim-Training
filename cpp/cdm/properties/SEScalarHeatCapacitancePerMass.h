@@ -1,0 +1,27 @@
+/* Distributed under the Apache License, Version 2.0.
+   See accompanying NOTICE file for details.*/
+
+#pragma once
+#include "properties/SEScalar.h"
+
+class CDM_DECL HeatCapacitancePerMassUnit : public CCompoundUnit
+{
+public:
+  HeatCapacitancePerMassUnit(const std::string& u) : CCompoundUnit(u) {}
+  virtual ~HeatCapacitancePerMassUnit() {}
+
+  static bool IsValidUnit(const std::string& unit);
+  static const HeatCapacitancePerMassUnit& GetCompoundUnit(const std::string& unit);
+
+  static const HeatCapacitancePerMassUnit J_Per_K_kg;
+  static const HeatCapacitancePerMassUnit kJ_Per_K_kg;
+  static const HeatCapacitancePerMassUnit kcal_Per_K_kg;
+  static const HeatCapacitancePerMassUnit kcal_Per_C_kg;
+};
+
+class CDM_DECL SEScalarHeatCapacitancePerMass : public SEScalarQuantity<HeatCapacitancePerMassUnit>
+{
+public:
+  SEScalarHeatCapacitancePerMass() {}
+  virtual ~SEScalarHeatCapacitancePerMass() {}
+};

@@ -1,0 +1,25 @@
+@import "../../shared/styles/styles.scss";
+
+#monitorMain {
+    background: #cfdcf0;
+    padding:20px;
+    height:inherit;
+    width:inherit;
+    padding-top:56px;
+    padding-bottom:56px;
+
+}
+
+#monitorColumn{
+    margin-right:50px;
+    margin-left:50px;
+}
+
+#monitorPower{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#buttonColumn{
+    padding-right:20px;
+}

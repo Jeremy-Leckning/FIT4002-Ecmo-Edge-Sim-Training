@@ -1,0 +1,49 @@
+@import "../../shared/styles/styles.scss";
+
+.explanation-list-wrapper {
+    // border: 1px solid red;
+    margin: 40px 0;
+    width: 100%;
+    &__list-element{
+        // border: 2px solid green;
+        @include displayFlex;
+        flex-direction: row;
+        min-height: 100px;
+
+        &__label{
+            // border: 1px solid blue;
+            @include border-radius(20px);
+            width: 20%;
+            background-color: white;
+            display: grid;
+            place-items: center;
+
+        }
+
+        &__description {
+            margin-left: 24px;
+            // border: 1px solid gold;
+            width: 80%;
+            height: 100%;
+
+            &__bullet-points{
+                // border: 1px solid brown;
+                margin-top: 10px;
+                
+
+            }
+        }
+
+        + .explanation-list-wrapper__list-element{
+            margin-top: 24px;
+        }
+    }
+
+    ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        margin: unset;
+        font-size: 18px;
+    }
+}

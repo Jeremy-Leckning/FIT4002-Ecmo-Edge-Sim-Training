@@ -1,0 +1,105 @@
+@import "../../../shared/styles/styles.scss";
+
+
+.row {
+	display: flex;
+	overflow: hidden;
+}
+
+#main {
+	margin-top: 70px;
+	justify-content: flex-end;
+	margin-left: 0%; 
+	background-color: #E7E7DB
+}
+
+.left {
+	min-width: 860px;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	overflow-x: hidden;
+	border-right:2px solid gray;
+}
+
+#circuitImage {
+	max-height:360px;
+}
+
+.middle{
+	width:650px;
+}
+
+.right {
+	width: 500px;
+	float: right;
+	background: #cfdcf0;
+}
+
+#circuitContainer{
+	height:390px;
+	justify-content:center;
+	vertical-align:central;
+	padding-top:20px;
+}
+
+
+#monitorContainer {
+	height:480px;
+	justify-content:right;
+}
+
+#monitor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#additionalInfo {
+	padding: 10px;
+	padding-top: 30px;
+}
+
+#scenario {
+	padding: 5px;
+	padding-left:12px;
+}
+
+#time {
+	padding: 5px;
+	padding-top: 15px;
+}
+
+#hint {
+	justify-content:right;
+	padding:6px;
+}
+
+#actionbtn {
+	padding:10px;
+	justify-content:center;
+}
+
+#interaction {
+	width: 450px;
+}
+
+.activityLog-container {
+	width: 450px;
+}
+
+.activity-container {
+	width: 450px;
+}
+
+.swal-overlay {
+	background-color: rgba(43, 165, 137, 0.45);
+  }
+
+  .swal-modal {
+	background: "white";
+	border-radius: 2%;
+	border-width: 5px;
+	border: 10px solid rgba(32, 71, 130, 1);
+  }

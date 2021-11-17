@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ecmo",
+    "\\ecmo\\src",
+    "\\ecmo\\src\\components",
+    "\\ecmo\\src\\components\\UserActionButton",
+    "\\ecmo\\src\\components\\Waveform\\subcomponents",
+    "\\ecmo\\src\\pages",
+    "\\ecmo\\src\\pages\\TrainingScenario",
+    "\\ecmo\\src\\pages\\TrainingScenario\\AccessInsufficiencyScenario",
+    "\\ecmo\\src\\pages\\TrainingScenario\\ScenarioSelectPage"
+  ],
+  "SelectedNode": "\\ecmo\\src\\components\\EcmoMonitor\\EcmoMonitor.js",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,19 @@
+@import "../../../shared/styles/styles.scss";
+
+.login-page{  
+    @include displayFlex();
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $background-color;
+    
+
+    &__wrapper-container {
+        @include displayFlex();
+        @include border-radius($borderRadius);
+        background-color: $white;
+        width: 88%;
+        height: 68%;
+        align-items: center;
+    }
+}

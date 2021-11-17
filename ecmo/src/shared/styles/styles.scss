@@ -1,0 +1,6 @@
+@import 'common/index',
+        'typography';
+
+body {
+    @include box-sizing(border-box)
+}

@@ -1,0 +1,30 @@
+@import "../../shared/styles/styles.scss";
+
+.patient-container {
+  min-width : 280 px;
+  max-height: 170px;
+  left: 0;
+  flex-direction: column;
+  font-size: 20px;
+  color: rgba(97, 97, 97, 1);
+  font-weight: bold;
+  border-style: solid;
+  border-color: rgba(207, 220, 240, 1);
+  background-color: rgba(207, 220, 240, 1);
+  padding:5px;
+}
+
+.details-container {
+    min-width : 260px;
+    max-height: 190px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: normal;
+    top: 29px;
+    left: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin:auto;
+}

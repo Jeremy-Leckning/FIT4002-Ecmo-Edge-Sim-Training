@@ -1,0 +1,10 @@
+@import "../../../../../shared/styles/styles.scss";
+
+.login-container {
+    @include displayFlex();
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}

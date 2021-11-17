@@ -1,0 +1,58 @@
+
+$blue: #3362A8;
+$darkBlue: #0A2A5A;
+$skyBlue: #4DA0EA;
+$lightSkyBlue: #CFDCF0;
+$matteBlue: #204782;
+$lightMatteBlue: #4d6c9b;
+$white: #ffffff;
+$black: #000000;
+$grey: #8C8C8C;
+$green: #50A78E;
+$lightGreen: #6AB877;
+
+/** Primary Color */
+$color-primary: $blue !default;
+// $color-primary-hover: $color-primary !default;
+// $color-primary-focus: darken($color-primary, 25%);
+// $color-overlay: $color-primary !default;
+
+/** Secondary Color*/
+$color-secondary: $darkBlue !default;
+// $color-secondary-hover: $color-secondary !default;
+// $color-secondary-translucent: $color-secondary !default;
+// $color-secondary-faded: $color-secondary !default;
+
+/** Tertiary Color*/
+$color-tertiary: $skyBlue !default;
+$color-tertiary-hover: $lightSkyBlue !default;
+
+/** Background Color*/
+$background-color: $blue !default;
+
+/** Primary Label Color */
+$color-plabel: $black !default;
+
+/** Secondary Label Color */
+$color-slabel: $grey !default;
+
+/** Tertiary Label Color */
+$color-tlabel: $white !default;
+
+/** Text Color */
+$color-text: $darkBlue !default;
+
+/** Border Color*/
+$color-border: $darkBlue !default;
+
+/** Header Colour */
+$color-header: $matteBlue !default;
+
+/** Submit Button */
+$color-submit: $green !default;
+$color-submit-hover: $lightGreen !default;
+
+/** Regular Button */
+$color-button: $matteBlue !default;
+$color-button-hover: $lightMatteBlue !default;
+

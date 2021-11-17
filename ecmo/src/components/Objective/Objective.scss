@@ -1,0 +1,28 @@
+@import "../../shared/styles/styles.scss";
+
+.objective-container {
+  max-height: 68px;
+  height: 68px;
+  width: 444px;
+  left: 0;
+  flex-direction: column;
+  color: rgba(97, 97, 97, 1);
+  font-size: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: rgba(207, 220, 240, 1);
+  background-color: rgba(207, 220, 240, 1);
+  padding:5px;
+}
+
+.objective-details-container {
+    min-height: 36px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: normal;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}

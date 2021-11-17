@@ -1,0 +1,40 @@
+@import "../../shared/styles/styles.scss";
+
+.button-wrapper {
+    color: inherit;
+    background-color: inherit;
+
+    &__button {
+        background-color: inherit;
+        border: none;
+        height: $unitLength;
+        min-width: $unitLength * 3;
+        width: 100%;
+        @include border-radius($unitLength/8);
+        margin: 4px;
+        font-size: 18px;
+        color:inherit;
+
+        &--grey {
+            color: $grey;
+        }
+
+        &--green {
+            color: $white;
+            background-color: $color-submit;
+
+            &:hover {
+                background-color: $color-submit-hover;
+            }
+        }
+
+        &--matte-blue {
+            color: $white;
+            background-color: $color-button;
+
+            &:hover {
+                background-color: $color-button-hover;
+            }
+        }
+    }
+}

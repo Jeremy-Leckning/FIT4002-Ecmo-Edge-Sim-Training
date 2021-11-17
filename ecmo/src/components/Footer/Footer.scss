@@ -1,0 +1,41 @@
+@import "../../shared/styles/styles.scss";
+
+.footer {
+    display:grid;
+    place-items: center;
+
+
+    &__footer-wrapper {
+        @include displayFlex();
+        justify-content: space-between;
+        min-height: 60px;
+        min-width: 500px;
+
+        &__monash-logo {
+            height: 40px;
+        }
+
+        &__createlab-logo {
+            height: 40px;
+        }
+
+        &__medtech-logo{
+            height: 40px;
+        }
+        
+    }
+}
+
+
+
+
+// .footer {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+//     margin-top: 1rem;
+//     padding: 1rem;
+//     bottom: 0;
+//   }
+  

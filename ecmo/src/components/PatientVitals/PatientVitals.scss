@@ -1,0 +1,73 @@
+@import "../../shared/styles/styles.scss";
+
+.vitals-container {
+  max-width: 650px;
+  width: 650px;
+  max-height: 928px;
+  height: 928px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: black;
+}
+
+.vitals-container div {
+  border-bottom: solid 2px #8c8c8c;
+  width: 650px;
+  max-width: 650px;
+  min-height: 120px;
+  max-height:400px;
+  position: relative;
+
+}
+
+.vitals-container h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #8c8c8c;
+  margin: 0;
+  padding: 10px;
+}
+
+.vitals-container h5 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #8c8c8c;
+  margin: 0;
+  position: absolute;
+  padding-top: 9px;
+  padding-right:10px;
+  top: 0;
+  right: 0;
+}
+
+.vitals-container h3 {
+  font-size: 48px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding-bottom: 0px;
+  padding-right:5px;
+}
+
+.vitals-container img {
+  position: absolute;
+  width: 160px;
+  height: 60px;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#waveform{
+    
+    height:400px;
+    width:650px;
+    -ms-overflow-style:none;
+}
+
+#chart{
+    overflow:hidden !important; 
+}

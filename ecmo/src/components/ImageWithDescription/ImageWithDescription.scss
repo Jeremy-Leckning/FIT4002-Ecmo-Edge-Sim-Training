@@ -1,0 +1,86 @@
+@import "../../shared/styles/styles.scss";
+
+.image-with-description {
+    @include displayFlex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    margin-top: 72px;
+
+    justify-content: center;
+    align-items: center;
+
+    @include desktop1080p{
+        height: 85%;
+    }
+
+    &__img {
+        height: 80%;
+        width: 50%;
+
+        @include desktop1080p {
+            height: 80%;
+            width: 40%;
+        }
+
+        + .image-with-description__description-container {
+            margin-left: 50px;
+        }
+    }
+
+    &__description-container {
+        height: 80%;
+        width: 40%;
+
+        @include desktop1080p {
+            height: 80%;
+            width: 30%;
+        }
+
+        @include border-radius(20px);
+        @include displayFlex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 40px;
+        background-color: $lightSkyBlue;
+
+
+        &__description-body{
+            @include displayFlex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 90%;
+
+            p {
+                margin: unset;
+            }
+
+            &__heading {
+                font-size: 30px;
+
+                @include desktop1080p{
+                    font-size: 40px;
+                }
+            }
+
+            &__description-text {
+                font-size: 18px;
+                padding: 10px 0px;
+
+                @include desktop1080p{
+                    font-size: 22px;
+                    padding: 30px 0px;
+                }
+            }
+
+            &__learning-objectives {
+                font-size: 16px;
+
+                @include desktop1080p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

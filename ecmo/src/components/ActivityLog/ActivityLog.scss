@@ -1,0 +1,29 @@
+@import "../../shared/styles/styles.scss";
+
+.activityLog-container {
+  width: 444px;
+  max-height: 161px;
+  height: 161px;
+  background-color: rgba(207, 220, 240, 1);
+  padding:5px;
+}
+
+.activity-container {
+  width: 444px;
+  max-height: 136px;
+  height: 136px;
+  background-color: rgba(119, 119, 119, 0.22);
+  bottom: 0;
+  position: relative;
+  border-radius:5px;
+  overflow-y: scroll;
+}
+
+.activity-container li {
+  // position: absolute;
+  list-style: none;
+  bottom: 0;
+  margin: 5px;
+  color: rgba(150, 150, 150, 1);
+  font-size: 16px;
+}

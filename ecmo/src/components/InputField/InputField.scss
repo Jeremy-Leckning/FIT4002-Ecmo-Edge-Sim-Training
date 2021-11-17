@@ -1,0 +1,17 @@
+@import "../../shared/styles/styles.scss";
+
+.input-field {
+
+    &__input{
+        height: $unitLength;
+        text-align: center;
+        border: 2px solid $color-secondary;
+        @include border-radius(5px);
+        @include box-sizing(border-box);
+    
+    }
+
+    + .input-field {
+        margin-top: 24px;
+    }
+}

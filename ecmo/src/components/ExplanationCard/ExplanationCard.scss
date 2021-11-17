@@ -1,0 +1,23 @@
+@import "../../shared/styles/styles.scss";
+
+.explanation-card-wrapper {
+
+    @include displayFlex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    margin-top: 72px;
+
+    justify-content: center;
+    align-items: center;
+
+    @include desktop1080p{
+        height: 85%;
+    }
+
+    &__card-container{
+        height: 75%;
+        width: 75%;
+    }
+
+}

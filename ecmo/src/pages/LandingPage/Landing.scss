@@ -1,0 +1,68 @@
+@import "../../shared/styles/styles.scss";
+
+.landing-page {
+  @include displayFlex();
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+
+  &__main-wrapper {
+    @include displayFlex();
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+
+    &__option {
+      @include displayFlex();
+      @include border-radius($borderRadius);
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $color-secondary;
+      box-sizing: border-box;
+
+      height: 400px;
+      width: 300px;
+      padding: 40px 0;
+
+      cursor: pointer;
+
+      img {
+        max-height: 225px;
+        max-width: 260px;
+
+        @include desktop1080p {
+          max-height: 500px;
+          max-width: 380px;
+        }
+      }
+
+      @include desktop1080p {
+        height: 600px;
+        width: 450px;
+        padding: 100px 0;
+
+      }
+    }
+
+    &__option:hover {
+      opacity: 0.95;
+    }
+  }
+  
+  a {
+    + a {
+      margin-left: 50px;
+  
+      @include desktop1080p {
+        margin-left: 100px;
+      }
+  
+    }
+  }
+}
+
