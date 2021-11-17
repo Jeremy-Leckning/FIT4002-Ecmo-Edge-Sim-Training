@@ -17,3 +17,4 @@ spike_arvr905/arvr905/package-lock.json
 terraform/infrastructure/*/.terraform
 terraform/infrastructure/*/terraform.tfstate
 terraform/infrastructure/*/terraform.tfstate.backup
+.DS_Store

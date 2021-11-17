@@ -1,6 +1,6 @@
 ## Installation
 
-If you already have Python with pip installed, you can simply run:
+If you already have Python with [pip](https://pip.pypa.io/en/stable/installation/) installed, you can simply run:
 
 ```sh
 pip install robotframework
@@ -15,8 +15,8 @@ pip install selenium robotframework-selenium2library webdrivermanager
 pip install robotframework-requests
 ```
 
-Chrome driver is needed for selenium web driver. Download chromedriver and include it in you ENV PATH. Ensure to choose the right version of chromedriver for your chrome.
-https://sites.google.com/chromium.org/driver/getting-started
+Chrome driver is needed for selenium web driver. Download chromedriver and include it in you ENV PATH. Ensure to choose the right version of [chromedriver](https://sites.google.com/chromium.org/driver/getting-started) for your chrome.
+
 
 ## Example
 

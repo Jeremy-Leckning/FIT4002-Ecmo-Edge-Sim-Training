@@ -1,6 +1,7 @@
 ## Foreword
-Express is built initially for the backend of this project. However, due to the high usage of AWS services, the React Web App is integrated to AWS API Gateway instead of Express. Hence, it is for the next team to decide whether to keep the Express (skeleton for the Express routes are done) and extent it or use the AWS services as the backend.
+Express Backend is built initially for the backend of this project. However, due to the high usage of AWS services, the React Web App is integrated to AWS API Gateway instead of Express. Hence, it is for the next team to decide whether to keep the Express (skeleton for the Express routes are done) and extent it or use the AWS services as the backend.
 
+NOTE: express backend is currently a placeholder
 
 ## Installation
 Before installing, [download and install Node.js](https://nodejs.org/en/download/) . Node.js 0.10 or higher is required.

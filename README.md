@@ -5,7 +5,7 @@ The operation of ECMO is very complex which requires specialised training.
 
 <img src="ecmo/src/shared/assets/ecmo_machine.jpg"
      alt="Ecmo machine"
-     style="width: 600px; height: 400px;" />
+     style="width: 50%;" />
 
 The aim of this project is to provide a comprehensive and interactive training system for apprentice clinicians learning to use the ECMO apparatus.
 This is done by developing a web application, a software training suite that incorporates a textbook with interactive elements such as [Unity](https://unity.com/) 3D elements and scenario based simulated trainings, which its computations is powered by [Pulse Physiology Engine](https://pulse.kitware.com/) developed by Kitware
@@ -20,15 +20,17 @@ This is done by developing a web application, a software training suite that inc
 
 4. [Terraform README](terraform/README.md)
 
-5. [Kitware Pulse Model README](cpp/README.md)
+5. [Kitware Pulse Model README](kitware_pulse/README.md)
+
+6. [HandoverDocuments](HandoverDocs)
 
 ## Getting help
 
 ### Authors
 
 Denzel Long - <denzel.long@monash.edu> <br />
-Celine Yeap - <celine.yeap@monash.edu> <br />
-Micah Looi - <MiJia.Looi@monash.edu> <br />
-Philip Chen - <philip.chen@monash.edu> <br />
-Jason Toh - <jason.toh@monash.edu> <br />
-Jeremy Leckning - <jeremy.leckning@monash.edu>
+Celine Yeap - <celineyeap9@gmail.com> <br />
+Micah Looi - <looimijia@gmail.com> <br />
+Philip Chen - <pche0142@gmail.com> <br />
+Jason Toh - <jtohwl@gmail.com> <br />
+Jeremy Leckning - <jleckning5@gmail.com>

@@ -6,7 +6,7 @@ const Chart = (props) => {
   const chartRef = useRef(undefined);
 
   useEffect(() => {
-    /* NEED TO ALLOW CORS ON SERVER SIDE TO ACCESS API */
+    //NEED TO ALLOW CORS ON SERVER SIDE TO ACCESS API
     // axios
     //   .get(
     //     "https://46y7wzkd1j.execute-api.ap-southeast-2.amazonaws.com/vitals/1/0.02"
